@@ -1,0 +1,243 @@
+::-webkit-scrollbar{
+    display: none;
+}
+#background-frist-photos{
+width: 1470px;
+height: 750px;
+background-color: lightseagreen;
+position: absolute;
+transform: rotate(3deg);
+top: -50;
+left: -50;
+}
+#background-middle-photos{
+    width: 1470px;
+    height: 900px;
+    background-color: lightskyblue;
+    position: absolute;
+    transform: rotate(3deg);
+    top: 600;
+    left: -50px;
+}
+#background-last-photos{
+    width: 1470px;
+    height: 700px;
+    background-color: lightseagreen;
+    position: absolute;
+    transform: rotate(-3deg);
+    top: 1300px;
+    left: -50px;
+}
+#diamond{
+    width: 100px;
+    height: 100px;
+    background-image: url(icons/icons8-diamond-100.png);
+    z-index: 5;
+    position: absolute;
+    top: 120px;
+    left: 620px;
+    animation-name: diamond;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+/* privacy-policy */
+#icon-link{
+/* display: none; */
+z-index: 1111;
+}
+/* end-of-privacy-policy */
+
+
+#title{
+    animation-name: title;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    position: absolute;
+    top: 40px;
+    left: 530px;
+    z-index: 6;
+}
+#name{
+    animation-name: name;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    position: absolute;
+    top: 190px;
+    left: 590px;
+    z-index: 6;
+}
+#description{
+    animation-name: desc;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    position: absolute;
+    top: 240px;
+    z-index: 6;
+    left: 595px;
+}
+@keyframes diamond{
+0%{
+left: -100px;
+transform: rotate(360deg);
+/* background-image: linear-gradient(blue,green);
+width: 50px;
+height: 50px; */
+}
+/* 50%{
+    left: 310px;
+transform: rotate(180deg); */
+/* background-image: linear-gradient(rgb(0, 132, 255));
+border-start-end-radius: 70%;
+border-end-start-radius: 70%; */
+/* } */
+100%{
+left: 620px;
+transform: rotate(0deg);
+/* background-image: url(icons8-diamond-100.png); */
+}
+}
+@keyframes title{
+    0%{
+        left: -100px;
+        }
+        100%{
+        left: 530px;
+        }
+}
+@keyframes name{
+    0%{
+        left: -100px;
+        }
+        100%{
+        left: 590px;
+        }
+}
+@keyframes desc{
+    0%{
+        left: -100px;
+        }
+        100%{
+            left: 595px;
+        }
+}
+#down-arrow{
+width: 50px;
+height: 50px;
+position: absolute;
+left: 670;
+top: 400px;
+z-index: 10;
+animation-name: opacity;
+animation-duration: 5s;
+animation-iteration-count: 1;
+}
+#go-down{
+    position: absolute;
+    left: 615;
+    top: 400px;
+    z-index: 10;
+    animation-name: opacity;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#courses{
+    position: absolute;
+    left: 540;
+    top: 620px;
+    z-index: 10;
+    font-size: 70px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-family: italic;
+}
+#html{
+    position: absolute;
+    left: 40;
+    top: 720px;
+    z-index: 10;
+    font-size: 70px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#html5{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    color: rgb(209, 118, 0);
+    left: 226;
+    top: 800px;
+    z-index: 10;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#courses5{
+    position: absolute;
+    left: 305;
+    top: 790px;
+    z-index: 10;
+    font-size: 30px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-family: Verdana;
+}
+#css{
+    position: absolute;
+    left: 40;
+    top: 840px;
+    z-index: 10;
+    font-size: 70px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#courses6{
+    position: absolute;
+    left: 235;
+    top: 910px;
+    z-index: 10;
+    font-size: 30px;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-family: Verdana;
+}
+#css5{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    color: rgb(209, 42, 0);
+    left: 153;
+    top: 925px;
+    z-index: 10;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+#school{
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    color: rgb(209, 42, 0);
+    left: 773;
+    top: 700px;
+    z-index: 10;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
